@@ -6,6 +6,7 @@ This code detects keypoints (hand, elbow, etc) for human pose estimation. The pr
 For the purpose of demonstration, we have provided pre-trained models. To run the demonstration code:
  * Execute the matlab script [examples/testModel.m](examples/testModel.m)
  * Chose an input image (some sample images are provided in [examples/img/](examples/img/) folder)
+ * The pretrained model is an implmentation of the Fusion network from [Pfister et al (ICCV 2015)](http://arxiv.org/abs/1506.02897">http://arxiv.org/abs/1506.02897).
 
 
 ## Training
